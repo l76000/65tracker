@@ -391,16 +391,16 @@ const timetableMapB = {
 // !!! OVDE KOPIRAJTE VAŠU KOMPLETNU LISTU URL-OVA !!!
 const URLS = [
     // Smer A: ZVEZDARA 2
-    { url: "https://beograd.prometko.si/api/stations/arrivals?station=22389", timetable: timetableMapB },
-    { url: "https://beograd.prometko.si/api/stations/arrivals?station=20368", timetable: timetableMapB },
-	{ url: "https://beograd.prometko.si/api/stations/arrivals?station=20311", timetable: timetableMapB },
-	{ url: "https://beograd.prometko.si/api/stations/arrivals?station=20178", timetable: timetableMapB },
+    { url: "https://beograd.prometko.si/api/stations/arrivals?station=22389", timetable: timetableMapA },
+    { url: "https://beograd.prometko.si/api/stations/arrivals?station=20368", timetable: timetableMapA },
+	{ url: "https://beograd.prometko.si/api/stations/arrivals?station=20311", timetable: timetableMapA },
+	{ url: "https://beograd.prometko.si/api/stations/arrivals?station=20178", timetable: timetableMapA },
     
     // Smer B: NOVO b. GROBLJE
-    { url: "https://beograd.prometko.si/api/stations/arrivals?station=21069", timetable: timetableMapA },
-    { url: "https://beograd.prometko.si/api/stations/arrivals?station=20085", timetable: timetableMapA },
-    { url: "https://beograd.prometko.si/api/stations/arrivals?station=20369", timetable: timetableMapA },
-	{ url: "https://beograd.prometko.si/api/stations/arrivals?station=21123", timetable: timetableMapA },
+    { url: "https://beograd.prometko.si/api/stations/arrivals?station=21069", timetable: timetableMapB },
+    { url: "https://beograd.prometko.si/api/stations/arrivals?station=20085", timetable: timetableMapB },
+    { url: "https://beograd.prometko.si/api/stations/arrivals?station=20369", timetable: timetableMapB },
+	{ url: "https://beograd.prometko.si/api/stations/arrivals?station=21123", timetable: timetableMapB },
 ];
 const CLEAN_REGEX = /[^\d:.]/g;
 
