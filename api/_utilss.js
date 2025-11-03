@@ -515,7 +515,11 @@ export async function runUpdateAndReturnData() {
 					const zamena3 = row.get('Zamena3');
 
                     // Da li je ovo novo vozilo koje već nismo videli?
-                    const isNewVehicle = (vehicle != mainVehicle) && (vehicle != zamena1) && (vehicle != zamena2) && (vehicle != zamena3);
+                  const isNewVehicle = 
+    (vehicle != mainVehicle) && 
+    (vehicle != zamena1) && 
+    (vehicle != zamena2) && 
+    (vehicle != zamena3);
 
                     if (isNewVehicle) {
                         if (!zamena1) {
@@ -552,7 +556,7 @@ export async function runUpdateAndReturnData() {
             time: row.get('Vreme Polaska'),
             zamena1: row.get('Zamena1') || null,
             zamena2: row.get('Zamena2') || null,
-			 zamena3: row.get('Zamena3') || null,
+			zamena3: row.get('Zamena3') || null,
         }));
         
         // Sortiraj po broju polaska (kao integer)
