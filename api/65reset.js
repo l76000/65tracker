@@ -16,7 +16,8 @@ export default async function handler(request, response) {
             'Broj Vozila', 
             'Vreme Polaska', 
             'Zamena1', 
-            'Zamena2'
+            'Zamena2',
+          'Zamena3'
         ]);
 
         console.log("Sheet je uspešno resetovan.");
