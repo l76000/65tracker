@@ -19,7 +19,7 @@
         }
         
         .container { 
-            max-width: 1000px; /* Increased max width for more space */
+            max-width: 100%; /* Increased max width for more space */
             margin: auto; 
             background: #1E1E1E; 
             padding: 30px; /* Increased container padding */
@@ -158,7 +158,7 @@
                 const zamena3HTML = result.zamena3 ? `<span class="replacement">${result.zamena3}</span>` : `<span>-</span>`; // DODATA LOGIKA ZA ZAMENU 3
 
                 item.innerHTML = `
-                    <span class="block">Polazak: ${result.block}</span>
+                    <span class="block">${result.block}</span>
                     <span class="vehicle">${result.vehicle}</span>
                     <span class="time">(${result.time})</span>
                     ${zamena1HTML}
