@@ -94,7 +94,7 @@
 
         /* Kept column structure, adjusted relative sizes slightly */
 
-        grid-template-columns: 1.2fr 1fr 1.3fr 1fr 1fr 1fr; 
+        grid-template-columns: 1.2fr 1fr 1.3fr 1fr 1fr ; 
 
         padding: 16px 12px; /* Increased vertical padding (top/bottom) */
 
@@ -280,7 +280,7 @@
                 <span>Zamena 1</span>
 
                 <span>Zamena 2</span>
-                 <span>Zamena 3</span>
+            
 
             `;
 
@@ -303,7 +303,7 @@
                 const zamena1HTML = result.zamena1 ? `<span class="replacement">${result.zamena1}</span>` : `<span>-</span>`;
 
                 const zamena2HTML = result.zamena2 ? `<span class="replacement">${result.zamena2}</span>` : `<span>-</span>`;
-                  const zamena3HTML = result.zamena3 ? `<span class="replacement">${result.zamena3}</span>` : `<span>-</span>`;
+        
 
 
 
@@ -316,7 +316,7 @@
                     <span class="time">(${result.time})</span> ${zamena1HTML}
 
                     ${zamena2HTML}
-                      ${zamena3HTML}
+       
 
                 `;
 
